@@ -7,3 +7,64 @@
     --color-border: #bdc3c7;
     --color-shadow: rgba(0, 0, 0, 0.1);
 }
+
+
+/* Tête*/
+
+
+.visage{
+    width: 500px;
+    height: 500px;
+    background-color: #ae8781;
+    border-radius: 45%; 
+    position: relative;
+    margin-top: 10px;
+}
+
+
+.oeil-droit{
+    width: 130px;
+    height: 130px;
+    background-color: #20b4e8;
+    border-radius: 45%; 
+    position: relative;
+    left: 340px;
+    bottom: -15px;
+}
+
+.oeil-gauche{
+    width: 130px;
+    height: 130px;
+    background-color: #20b4e8;
+    border-radius: 45%; 
+    position: relative;
+    left: 30px;
+    bottom: -150px;
+}
+
+.bouche{
+    border: 5px solid #f06363;
+    border-radius: 30%;
+    width: 130px;
+    position: relative;
+    left: 165px;
+    bottom: -100px;
+}
+
+.sourcil-gauche{
+    border: 5px solid #000000;
+    border-radius: 30%;
+    width: 130px;
+    position: relative;
+    bottom: 175px; 
+}
+
+.sourcil-droit{
+    border: 5px solid #000000;
+    border-radius: 30%;
+    width: 130px;
+    position: relative;
+    bottom: 185px; 
+    left: 340px;
+}
+
