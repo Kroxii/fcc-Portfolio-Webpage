@@ -1,8 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portfolio</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#welcome-section">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a id="profile-link" href="https://github.com/your-profile" target="_blank">Profile</a></li>
+        </ul>
+    </nav>
+
+    <section id="welcome-section">
+        <h1>Welcome to My Portfolio</h1>
+    </section>
+
+    <section id="projects">
+        <div class="project-tile">
+            <h2>Project Title</h2>
+            <p>Description of the project.</p>
+            <a href="https://github.com/Kroxii" target="_blank">View Project</a>
+        </div>
+    </section>
+</body>
+</html>
