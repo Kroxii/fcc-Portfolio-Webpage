@@ -286,10 +286,12 @@ header nav ul li a:hover {
   color: #333;
 }
 
-social-links {
+.social-links {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 2rem;
+  flex-wrap: nowrap;
 }
 
 .social-link {
@@ -303,11 +305,11 @@ social-links {
 }
 
 .social-link img {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
 }
 
-.social-link:hover {
+social-link:hover {
   color: #00bcd4;
   transform: scale(1.1);
 }
